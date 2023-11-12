@@ -21,17 +21,35 @@
                 <input type="submit" value="Tentar Novamente" id="tentar-novamente" onclick="TentarNovamente()">
             </div>
 
-            
+            <div id="segunda-pergunta"> 
+                <i class="material-symbols-outlined" id="numero2">counter_2</i>
+                <h4>
+                    Qual o coeficiente linear da reta (x-y+2=0)
+                </h4>
+                <div class="container-resp">
+                    <div class="design-resp" onclick="Errar()"><h2>1</h2></div>
+                    <div class="design-resp" onclick="acerto2()"><h2>2</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>4</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>6</h2></div>
+                </div>
+
+                <div id="div-info">
+                    <div><i id="info" class="material-symbols-outlined" onmousemove="info()" onmouseout="infoquit()">info</i></div>
+                    <div>
+                        <p>A formula é Y= Ax+ B</p>
+                    </div>
+                </div>
+            </div>
             <div id="pergunta1">
                 <i class="material-symbols-outlined" id="numero1">counter_1</i>
                 <h4>
-                    O coeficiente linear, da reta x - y + 2 = 0 é
+                    Qual o coeficiente Linear da função (y=4x+8)
                 </h4>
-                <div id="container-resp">
-                    <div class="design-resp" onclick ="Errar()"><h2>1</h2></div>
-                    <div class="design-resp" onclick="acerto1()"><h2>2</h2></div>
-                    <div class="design-resp" onclick="Errar()"><h2>4</h2></div>
-                    <div class="design-resp" onclick="Errar()"><h2>6</h2></div>
+                <div class="container-resp">
+                    <div class="design-resp" onclick ="Errar()"><h2>4</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>4x</h2></div>
+                    <div class="design-resp" onclick="acerto1()"><h2>8</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>12</h2></div>
                 </div>
                 
                 <div id="div-info">
@@ -39,7 +57,9 @@
                     <div id="formula">
                         <p>A formula é Y= Ax + B</p>
                     </div>
-            </div> 
+            </div>
+            
+            
         </div>
 
 

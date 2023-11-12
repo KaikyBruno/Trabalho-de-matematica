@@ -40,9 +40,11 @@ function infoquit () {
 
 function Errar () {
     const pergunta1 = document.getElementById ('pergunta1')
+    const pergunta2 = document.getElementById ('segunda-pergunta')
     const erro = document.getElementById ('erro')
 
     pergunta1.style.display = 'none'
+    pergunta2.style.display = 'none'
     erro.style.display = 'block'
 }
 
@@ -55,7 +57,14 @@ function TentarNovamente () {
 }
 function acerto1 () {
     const pergunta1 = document.getElementById ('pergunta1')
-    
+    const pergunta2 = document.getElementById ('segunda-pergunta')
 
     pergunta1.style.display = 'none'
+    pergunta2.style.display = 'block'
+}
+function acerto2 () {
+    const pergunta2 = document.getElementById ('segunda-pergunta')
+
+    
+    pergunta2.style.display = 'none'
 }

@@ -1,4 +1,4 @@
-#container-pai-perguntas {
+.container-pai-perguntas {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -23,6 +23,22 @@ h5 {
     font-size: 3em;
 }
 #numero2 {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero3 {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero4 {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero5 {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero6 {
     margin: 20px 0px 0px 20px;
     font-size: 3em;
 }
@@ -92,8 +108,43 @@ h4 {
     font-weight: bolder;
     display: none;
 }
+#pergunta1 {
+    display: block;
+}
 #segunda-pergunta {
     display: none;
+}
+#terceira-pergunta {
+    display: none;
+}
+#quarta-pergunta {
+    display: none;
+}
+#quinta-pergunta {
+    display: none;
+}
+#completo {
+    display: none;
+}
+#completo-nivel {
+    border: none;
+    width: 200px;
+    height: 60px;
+    background-color: blue;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 180%);
+}
+#completo-nivel:hover {
+    background-color:  rgb(1, 1, 145);
+    cursor: pointer;
 }
 
 

@@ -36,6 +36,15 @@ main > h1 {
     
 
 }
+#container-segundo-nivel {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+
+}
 
 .button-linear-angular {
     width: 220px;
@@ -102,4 +111,36 @@ i{
 #janela-bloqueado > input:hover {
     background-color:  rgb(1, 1, 145);
 }
+#nivel-completado {
+    background-color: rgb(12, 214, 120);
+    color: #bdb8b8;
 
+}
+#nivel-completado:hover  {
+    background-color: rgb(7, 136, 76);
+}
+#nivel-concluido {
+    display: none;
+}
+#nivel-concluido > h3 {
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+#nivel-concluido > input {
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1em;
+    margin: auto;
+    
+    display: block;
+}
+#nivel-concluido > input:hover {
+    background-color:  rgb(1, 1, 145);
+    cursor: pointer;
+}

@@ -41,10 +41,16 @@ function infoquit () {
 function Errar () {
     const pergunta1 = document.getElementById ('pergunta1')
     const pergunta2 = document.getElementById ('segunda-pergunta')
+    const pergunta3 = document.getElementById ('terceira-pergunta')
+    const pergunta4 = document.getElementById ('quarta-pergunta')
+    const pergunta5 = document.getElementById ('quinta-pergunta')
     const erro = document.getElementById ('erro')
 
     pergunta1.style.display = 'none'
     pergunta2.style.display = 'none'
+    pergunta3.style.display = 'none'
+    pergunta4.style.display = 'none'
+    pergunta5.style.display = 'none'
     erro.style.display = 'block'
 }
 
@@ -64,7 +70,53 @@ function acerto1 () {
 }
 function acerto2 () {
     const pergunta2 = document.getElementById ('segunda-pergunta')
+    const pergunta3 = document.getElementById ('terceira-pergunta')
 
     
     pergunta2.style.display = 'none'
+    pergunta3.style.display = 'block'
 }
+function acerto3 () {
+    const pergunta3 = document.getElementById ('terceira-pergunta')
+    const pergunta4 = document.getElementById ('quarta-pergunta')
+
+    pergunta3.style.display = 'none'
+    pergunta4.style.display = 'block'
+}
+function acerto4 () {
+    const pergunta4 = document.getElementById ('quarta-pergunta')
+    const pergunta5 = document.getElementById ('quinta-pergunta')
+
+    pergunta4.style.display = 'none'
+    pergunta5.style.display = 'block'
+}
+function acerto5 () {
+    const pergunta5 = document.getElementById ('quinta-pergunta')
+    const completoPrimeiroNivel = document.getElementById ('completo')
+
+    pergunta5.style.display = 'none'
+    completoPrimeiroNivel.style.display = 'block'
+}
+
+function NivelConcluido() {
+    const segundoNivel = document.getElementById ('container-segundo-nivel')
+    const footer = document.getElementById ('footer')
+    const primeiroConcluido = document.getElementById ('nivel-concluido')
+
+    segundoNivel.style.display = 'none'
+    footer.style.display = 'none'
+    primeiroConcluido.style.display = 'block'
+}
+
+function buttonConcluiido() {
+    const segundoNivel = document.getElementById ('container-segundo-nivel')
+    const footer = document.getElementById ('footer')
+    const primeiroConcluido = document.getElementById ('nivel-concluido')
+
+    segundoNivel.style.display = 'flex'
+    footer.style.display = 'block'
+    primeiroConcluido.style.display = 'none'
+}
+
+    
+

@@ -13,12 +13,63 @@
 </head>
 <body>
     <main>
-        <div id="container-pai-perguntas">
+        <div class="container-pai-perguntas">
 
             <div id="erro">
                 <h5>Ops, Não foi dessa vez!</h5>
                 <h5>Tente Novamente</h5>
                 <input type="submit" value="Tentar Novamente" id="tentar-novamente" onclick="TentarNovamente()">
+            </div>
+
+
+            <div id="completo">
+                <h5>Parabéns! Nivel 1 Completo!</h5>
+                <h5>Clique no botão abaixo para voltar a seleção dos níveis</h5>
+                <a href="segundo-nivel-linear.html">
+                    <div><input type="submit" value="Nivel 2" id="completo-nivel"></div>
+                </a>
+
+            </div>
+
+            
+
+            <div id="quinta-pergunta">
+                <i class="material-symbols-outlined" id="numero5">counter_5</i>
+                <h4>
+                    Nesse equação (Y=Ax+B) O que é o B
+                </h4>
+                <div class="container-resp">
+                    <div class="design-resp" onclick="acerto5()"><h2>Coeficiente Linear</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>Coeficiente Angular</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>Abscissa</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>Função Linear</h2></div>
+                </div>
+            </div>
+
+            <div id="quarta-pergunta">
+                <i class="material-symbols-outlined" id="numero4"> counter_4</i>
+                <h4>
+                    Qual o coeficiente linear dos pontos (-2,2) (1,-4)
+                </h4>
+                <div class="container-resp">
+                    <div class="design-resp" onclick="Errar()"><h2>3</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>-6</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>2</h2></div>
+                    <div class="design-resp" onclick="acerto4()"><h2>-2</h2></div>
+                </div>
+            </div>
+
+            <div id="terceira-pergunta">
+                <i class="material-symbols-outlined" id="numero3">counter_3</i>
+                <h4>
+                    Qual o coeficiente linear dos pontos (1,2) (2,1)
+                </h4>
+                <div class="container-resp">
+                    <div class="design-resp" onclick="Errar()"><h2>1</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>2</h2></div>
+                    <div class="design-resp" onclick="acerto3()"><h2>3</h2></div>
+                    <div class="design-resp" onclick="Errar()"><h2>4</h2></div>
+                </div>
             </div>
 
             <div id="segunda-pergunta"> 
@@ -35,7 +86,7 @@
 
                 <div id="div-info">
                     <div><i id="info" class="material-symbols-outlined" onmousemove="info()" onmouseout="infoquit()">info</i></div>
-                    <div>
+                    <div id="formula">
                         <p>A formula é Y= Ax+ B</p>
                     </div>
                 </div>
@@ -58,6 +109,8 @@
                         <p>A formula é Y= Ax + B</p>
                     </div>
             </div>
+
+            
             
             
         </div>

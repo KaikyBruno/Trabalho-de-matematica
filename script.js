@@ -132,6 +132,7 @@ function acerto7 () {
 }
 
 function NivelConcluido() {
+    
     const segundoNivel = document.getElementById ('container-segundo-nivel')
     const footer = document.getElementById ('footer')
     const primeiroConcluido = document.getElementById ('nivel-concluido')

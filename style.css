@@ -53,6 +53,10 @@ main > h1 {
     margin-left: 20px;
     margin-top: 70px;
     border-radius: 10px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
     
 }
 .button-linear-angular:hover {
@@ -113,7 +117,8 @@ i{
 }
 #nivel-completado {
     background-color: rgb(12, 214, 120);
-    color: #bdb8b8;
+    color: white;
+
 
 }
 #nivel-completado:hover  {

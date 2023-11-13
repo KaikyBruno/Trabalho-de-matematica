@@ -54,6 +54,15 @@ function Errar () {
     erro.style.display = 'block'
 }
 
+function Errar2 () {
+    const segundoErro = document.getElementById ('segundo-erro')
+    const pergunta6 = document.getElementById ('sexta-pergunta')
+    const pergunta7 = document.getElementById ('setima-pergunta')
+
+    pergunta6.style.display = 'none'
+    pergunta7.style.display = 'none'
+    segundoErro.style.display = 'block'
+}
 function TentarNovamente () {
     const pergunta1 = document.getElementById ('pergunta1')
     const erro = document.getElementById ('erro')
@@ -61,6 +70,15 @@ function TentarNovamente () {
     pergunta1.style.display = 'block'
     erro.style.display = 'none'
 }
+
+function TentarNovamente2 () {
+    const pergunta6 = document.getElementById ('sexta-pergunta')
+    const segundoErro = document.getElementById ('segundo-erro')
+
+    pergunta6.style.display = 'block'
+    segundoErro.style.display = 'none'
+}
+
 function acerto1 () {
     const pergunta1 = document.getElementById ('pergunta1')
     const pergunta2 = document.getElementById ('segunda-pergunta')
@@ -98,6 +116,21 @@ function acerto5 () {
     completoPrimeiroNivel.style.display = 'block'
 }
 
+function acerto6 () {
+    const pergunta6 = document.getElementById ('sexta-pergunta')
+    const pergunta7 = document.getElementById ('setima-pergunta')
+    
+
+    pergunta6.style.display = 'none'
+    pergunta7.style.display = 'block'
+}
+
+function acerto7 () {
+    const pergunta7 = document.getElementById ('setima-pergunta')
+    
+    pergunta7.style.display = 'none'
+}
+
 function NivelConcluido() {
     const segundoNivel = document.getElementById ('container-segundo-nivel')
     const footer = document.getElementById ('footer')
@@ -117,6 +150,7 @@ function buttonConcluiido() {
     footer.style.display = 'block'
     primeiroConcluido.style.display = 'none'
 }
+
 
     
 

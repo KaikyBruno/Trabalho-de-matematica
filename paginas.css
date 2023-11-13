@@ -18,6 +18,9 @@ h5 {
 #erro {
     display: none;
 }
+#segundo-erro {
+    display: none;
+}
 #numero1 {
     margin: 20px 0px 0px 20px;
     font-size: 3em;
@@ -39,6 +42,10 @@ h5 {
     font-size: 3em;
 }
 #numero6 {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero7 {
     margin: 20px 0px 0px 20px;
     font-size: 3em;
 }
@@ -123,6 +130,12 @@ h4 {
 #quinta-pergunta {
     display: none;
 }
+#sexta-pergunta {
+    display: block;
+}
+#setima-pergunta {
+    display: none;
+}
 #completo {
     display: none;
 }
@@ -146,5 +159,42 @@ h4 {
     background-color:  rgb(1, 1, 145);
     cursor: pointer;
 }
-
+#imagem-6 {
+    display: block;
+    margin-left: 30px;
+}
+#container-6 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+#container-6 {
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+}
+#alternativa-6 {
+    margin-top: 50px;
+    max-width: 120px !important;
+    min-height: 30px  !important;
+}
+#imagem-7 {
+    display: block;
+    margin-left: 30px;
+}
+#container-7{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+#container-7 {
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+}
+#alternativa-7 {
+    margin-top: 50px;
+    max-width: 120px !important;
+    min-height: 30px  !important;
+}
 

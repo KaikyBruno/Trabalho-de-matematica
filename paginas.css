@@ -268,9 +268,9 @@ h4 {
         font-size: 3em;
     }
     .design-resp {
-        flex: 1 1 100px;
+        flex: 1 1 120px;
         min-height:90px;
-        max-width: 100px;
+        max-width: 110px;
     }
     #responsividade > h2 {
         font-size:0.8em;

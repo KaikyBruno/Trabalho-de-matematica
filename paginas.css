@@ -53,6 +53,10 @@ h5 {
     margin: 20px 0px 0px 20px;
     font-size: 3em;
 }
+#numero9 {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
 h4 {
     text-align: center;
     font-size: 2em;
@@ -140,6 +144,12 @@ h4 {
 #setima-pergunta {
     display: none;
 }
+#oitava-pergunta {
+    display: none;
+}
+#nona-pergunta {
+    display: none;
+}
 #completo {
     display: none;
 }
@@ -186,6 +196,7 @@ h4 {
     display: block;
     margin-left: 30px;
 }
+
 #container-7{
     display: flex;
     width: 100%;
@@ -201,4 +212,98 @@ h4 {
     max-width: 120px !important;
     min-height: 30px  !important;
 }
-
+#container-8 {
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+#alternativa-8 {
+    margin-top: 50px;
+    max-width: 120px !important;
+    min-height: 30px  !important;
+}
+#imagem-8 {
+    display: block;
+    margin-left: 30px;
+}
+#fonte {
+    font-size: 1.4em;
+}
+#linear-completo{
+     display: none;
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .container-pai-perguntas {
+        width: 90%;
+    }
+    h4 {
+        font-size: 1.4em;
+    }
+    #numero1 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero2 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero3 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero4 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero5 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero6 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero7 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero8 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }
+    .design-resp {
+        flex: 1 1 90px;
+        min-height:90px;
+        max-width: 120px;
+    }
+    #responsividade > h2 {
+        font-size:0.8em;
+    }
+    #imagem-6 {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    #alternativa-6 {
+        margin-top: 0;
+        max-width: 120px !important;
+        min-height: 90px  !important;
+    }
+    #imagem-7 {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    #alternativa-7 {
+        margin-top: 0;
+        max-width: 120px !important;
+        min-height: 90px  !important;
+    }
+    #imagem-8 {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    #alternativa-8 {
+        margin-top: 0;
+        max-width: 120px !important;
+        min-height: 90px  !important;
+    }
+    
+}

@@ -58,9 +58,13 @@ function Errar2 () {
     const segundoErro = document.getElementById ('segundo-erro')
     const pergunta6 = document.getElementById ('sexta-pergunta')
     const pergunta7 = document.getElementById ('setima-pergunta')
+    const pergunta8 = document.getElementById ('oitava-pergunta')
+    const pergunta9 = document.getElementById ('nona-pergunta')
 
     pergunta6.style.display = 'none'
     pergunta7.style.display = 'none'
+    pergunta8.style.display = 'none'
+    pergunta9.style.display = 'none'
     segundoErro.style.display = 'block'
 }
 function TentarNovamente () {
@@ -127,9 +131,26 @@ function acerto6 () {
 
 function acerto7 () {
     const pergunta7 = document.getElementById ('setima-pergunta')
+    const pergunta8 = document.getElementById ('oitava-pergunta')
     
     pergunta7.style.display = 'none'
+    pergunta8.style.display = 'block'
 }
+function acerto8 () {
+    const pergunta8 = document.getElementById ('oitava-pergunta')
+    const pergunta9 = document.getElementById ('nona-pergunta')
+
+    pergunta8.style.display = 'none'
+    pergunta9.style.display = 'block'
+}
+function acerto9 () {
+    const pergunta9 = document.getElementById ('nona-pergunta')
+    const NivelConcluidoLinear = document.getElementById ('linear-completo')
+
+    pergunta9.style.display = 'none'
+    NivelConcluidoLinear.style.display = 'block'
+}
+
 
 function NivelConcluido() {
     

@@ -307,3 +307,43 @@ h4 {
     }
     
 }
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .container-pai-perguntas {
+        width: 80%;
+        height: 52%;
+    }
+    #numero1 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero2 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero3 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero4 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero5 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero6 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero7 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }#numero8 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }
+    .design-resp {
+        flex: 1 1 230px;
+        min-height:90px;
+        max-width: 217px;
+    }
+    #responsividade > h2 {
+        font-size:1.2em;
+    }
+    
+}

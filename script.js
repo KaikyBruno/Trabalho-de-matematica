@@ -67,6 +67,20 @@ function Errar2 () {
     pergunta9.style.display = 'none'
     segundoErro.style.display = 'block'
 }
+
+function ErrarAngular() {
+    const pergunta1Angular = document.getElementById ('pergunta1-angular')
+    const pergunta2Angular = document.getElementById ('pergunta2-angular')
+    const pergunta3Angular = document.getElementById ('pergunta3-angular')
+    const pergunta4Angular = document.getElementById ('pergunta4-angular')
+    const ErroAngular = document.getElementById ('erro-angular')
+
+    pergunta1Angular.style.display = 'none'
+    pergunta2Angular.style.display = 'none'
+    pergunta3Angular.style.display = 'none'
+    pergunta4Angular.style.display = 'none'
+    ErroAngular.style.display = 'block'
+}
 function TentarNovamente () {
     const pergunta1 = document.getElementById ('pergunta1')
     const erro = document.getElementById ('erro')
@@ -81,6 +95,14 @@ function TentarNovamente2 () {
 
     pergunta6.style.display = 'block'
     segundoErro.style.display = 'none'
+}
+
+function TentarNovamenteAngular() {
+    const ErroAngular = document.getElementById ('erro-angular')
+    const pergunta1Angular = document.getElementById ('pergunta1-angular')
+
+    ErroAngular.style.display = 'none'
+    pergunta1Angular.style.display = 'block'
 }
 
 function acerto1 () {
@@ -172,6 +194,37 @@ function buttonConcluiido() {
     footer.style.display = 'block'
     primeiroConcluido.style.display = 'none'
 }
+
+function acerto1Angular() {
+    const pergunta1Angular = document.getElementById ('pergunta1-angular')
+    const pergunta2Angular = document.getElementById ('pergunta2-angular')
+
+    pergunta1Angular.style.display = 'none'
+    pergunta2Angular.style.display = 'block'
+}
+function acerto2Angular() {
+    const pergunta2Angular = document.getElementById ('pergunta2-angular')
+    const pergunta3Angular = document.getElementById ('pergunta3-angular')
+
+    pergunta2Angular.style.display = 'none'
+    pergunta3Angular.style.display = 'block'
+}
+function acerto3Angular() {
+    const pergunta3Angular = document.getElementById ('pergunta3-angular')
+    const pergunta4Angular = document.getElementById ('pergunta4-angular')
+
+    pergunta3Angular.style.display = 'none'
+    pergunta4Angular.style.display = 'block'
+}
+function acerto4Angular() {
+    const pergunta4Angular = document.getElementById ('pergunta4-angular')
+    const completoPrimeiroNivel = document.getElementById ('completo')
+
+    pergunta4Angular.style.display = 'none'
+    completoPrimeiroNivel.style.display = 'block'
+}
+
+
 
 
     

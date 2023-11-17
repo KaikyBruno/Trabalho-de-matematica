@@ -18,6 +18,9 @@ h5 {
 #erro {
     display: none;
 }
+#erro-angular {
+    display: none;
+}
 #segundo-erro {
     display: none;
 }
@@ -54,6 +57,22 @@ h5 {
     font-size: 3em;
 }
 #numero9 {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero1-angular {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero2-angular {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero3-angular {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero4-angular {
     margin: 20px 0px 0px 20px;
     font-size: 3em;
 }
@@ -148,6 +167,15 @@ h4 {
     display: none;
 }
 #nona-pergunta {
+    display: none;
+}
+#pergunta2-angular {
+    display: none;
+}
+#pergunta3-angular {
+    display: none;
+}
+#pergunta4-angular {
     display: none;
 }
 #completo {
@@ -307,10 +335,10 @@ h4 {
     }
     
 }
-@media screen and (min-width: 601px) and (max-width: 900px) {
+@media screen and (min-width: 601px) and (max-width: 1100px) {
     .container-pai-perguntas {
-        width: 80%;
-        height: 52%;
+        width: 85%;
+        height: 80%;
     }
     #numero1 {
         margin: 10px 0px 0px 10px;
@@ -338,9 +366,9 @@ h4 {
         font-size: 3em;
     }
     .design-resp {
-        flex: 1 1 230px;
+        flex: 1 1 150px;
         min-height:90px;
-        max-width: 217px;
+        max-width: 150px;
     }
     #responsividade > h2 {
         font-size:1.2em;

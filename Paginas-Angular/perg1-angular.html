@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Angular</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../paginas.css">
+    <script src="../script.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <main>
+        <div class="container-pai-perguntas">
+
+            <div id="erro-angular">
+                <h5>Ops, Não foi dessa vez!</h5>
+                <h5>Tente Novamente</h5>
+                <input type="submit" value="Tentar Novamente" id="tentar-novamente" onclick="TentarNovamenteAngular()">
+            </div>
+
+            <div id="completo">
+                <h5>Parabéns! Nivel 1 Completo!</h5>
+                <h5>Clique no botão abaixo para voltar a seleção dos níveis</h5>
+                
+                <form action="segundo-nivel-angular.html">
+                    <input type="submit" value="Nível 2" id="completo-nivel">
+                </form>
+            </div>
+
+            <div id="pergunta4-angular">
+                <i class="material-symbols-outlined" id="numero4-angular">counter_4</i>
+                <h4>
+                    Qual o coeficiente Angular dos pontos (5,5) (9,-9)
+                </h4>
+                <div class="container-resp">
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>-3</h2></div>
+                    <div class="design-resp" onclick="acerto4Angular()"><h2>-3.5</h2></div>
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>-4.5</h2></div>
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>-5</h2></div>
+                </div>
+            </div>
+
+            <div id="pergunta3-angular">
+                <i class="material-symbols-outlined" id="numero3-angular"> counter_3</i>
+
+                <h4>
+                    Qual o coeficiente Angular dos pontos (-7,=2) (-2,-6)
+                </h4>
+                <div class="container-resp">
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>-2/3</h2></div>
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>-2/4</h2></div>
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>-3/4</h2></div>
+                    <div class="design-resp" onclick="acerto3Angular()"><h2>-4/5</h2></div>
+                </div>
+            </div>
+
+            <div id="pergunta2-angular">
+                <i class="material-symbols-outlined" id="numero2-angular"> counter_2</i>
+                <h4>
+                    Qual o coeficiente Angular dos pontos (3,2) (1,1)
+                </h4>
+                <div class="container-resp">
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>-1/2</h2></div>
+                    <div class="design-resp" onclick="acerto2Angular()"><h2>1/2</h2></div>
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>2/4</h2></div>
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>3/4</h2></div>
+                </div>
+
+            </div>
+
+            <div id="pergunta1-angular">
+                <i class="material-symbols-outlined" id="numero1-angular">counter_1</i>
+                <h4>
+                    Qual o coeficiente Angular dos pontos (-2,2) (1,-4)
+                </h4>
+
+                <div class="container-resp">
+                    <div class="design-resp" onclick="acerto1Angular()"><h2>1</h2></div>
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>-1</h2></div>
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>4</h2></div>
+                    <div class="design-resp" onclick="ErrarAngular()"><h2>-4</h2></div>
+                </div>
+
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Angular</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../paginas.css">
+    <script src="../script.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <main>
+        <h1>Angular</h1>
+        <div id="container-pai">
+
+            <div id="nivel-concluido">
+                <h3>
+                    Esse nivel já foi Concluido
+                </h3>
+                <h3>
+                    Jogue o nivel 2 para completar o quiz
+                </h3>
+                <input type="submit" value="Voltar" onclick="buttonConcluiido()">
+            </div>
+
+            <div id="container-segundo-nivel">  
+                    <input 
+                        type="submit" 
+                        value="Nível Concluido" 
+                        class="button-linear-angular" 
+                        id="nivel-completado" 
+                        onclick="NivelConcluido()"
+                    >
+                    <form action="perg2-angular.html">
+                        <input type="submit" class="button-linear-angular" value="Nível 2">
+                    </form>
+
+
+            </div>
+            <footer id="footer">&copy;Feito por Kaiky para fins Pedagogicos</footer>
+        </div>
+    </main>
+</body>
+</html>

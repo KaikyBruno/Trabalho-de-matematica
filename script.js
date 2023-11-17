@@ -81,6 +81,7 @@ function ErrarAngular() {
     pergunta4Angular.style.display = 'none'
     ErroAngular.style.display = 'block'
 }
+
 function TentarNovamente () {
     const pergunta1 = document.getElementById ('pergunta1')
     const erro = document.getElementById ('erro')

@@ -81,7 +81,13 @@ function ErrarAngular() {
     pergunta4Angular.style.display = 'none'
     ErroAngular.style.display = 'block'
 }
-
+function Errar2Angular() {
+    const pergunta5Angular = document.getElementById ('pergunta5-angular')
+    const Erro2Angular = document.getElementById ('segundo-erro-angular')
+    
+    pergunta5Angular.style.display = 'none'
+    Erro2Angular.style.display = 'block'
+}
 function TentarNovamente () {
     const pergunta1 = document.getElementById ('pergunta1')
     const erro = document.getElementById ('erro')
@@ -104,6 +110,13 @@ function TentarNovamenteAngular() {
 
     ErroAngular.style.display = 'none'
     pergunta1Angular.style.display = 'block'
+}
+function TentarNovamente2Angular() {
+    const pergunta5Angular = document.getElementById ('pergunta5-angular')
+    const Erro2Angular = document.getElementById ('segundo-erro-angular')
+    
+    pergunta5Angular.style.display = 'block'
+    Erro2Angular.style.display = 'none'
 }
 
 function acerto1 () {
@@ -223,6 +236,13 @@ function acerto4Angular() {
 
     pergunta4Angular.style.display = 'none'
     completoPrimeiroNivel.style.display = 'block'
+}
+function acerto5Angular() {
+    const pergunta5Angular = document.getElementById ('pergunta5-angular')
+    const pergunta6Angular = document.getElementById ('pergunta6-angular')
+
+    pergunta5Angular.style.display = 'none'
+    pergunta6Angular.style.display = 'block'
 }
 
 

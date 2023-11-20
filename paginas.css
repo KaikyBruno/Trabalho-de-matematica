@@ -84,6 +84,18 @@ h5 {
     margin: 20px 0px 0px 20px;
     font-size: 3em;
 }
+#numero6-angular {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero7-angular {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
+#numero8-angular {
+    margin: 20px 0px 0px 20px;
+    font-size: 3em;
+}
 h4 {
     text-align: center;
     font-size: 2em;
@@ -184,6 +196,18 @@ h4 {
     display: none;
 }
 #pergunta4-angular {
+    display: none;
+}
+#pergunta6-angular {
+    display: none;
+}
+#pergunta7-angular {
+    display: none;
+}
+#pergunta8-angular {
+    display: none;
+}
+#angular-completo {
     display: none;
 }
 #completo {
@@ -291,7 +315,21 @@ h4 {
     max-width: 120px !important;
     min-height: 30px  !important;
 }
-
+#alternativa-6-angular {
+    margin-top: 30px;
+    max-width: 120px !important;
+    min-height: 30px  !important;
+}
+#alternativa-7-angular {
+    margin-top: 30px;
+    max-width: 120px !important;
+    min-height: 30px  !important;
+}
+#alternativa-8-angular {
+    margin-top: 30px;
+    max-width: 120px !important;
+    min-height: 30px  !important;
+}
 @media screen and (min-width: 300px) and (max-width: 660px) {
     .container-pai-perguntas {
         width: 90%;
@@ -321,6 +359,38 @@ h4 {
         margin: 10px 0px 0px 10px;
         font-size: 3em;
     }#numero8 {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }
+    #numero1-angular {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }
+    #numero2-angular {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }
+    #numero3-angular {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }
+    #numero4-angular {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }
+    #numero5-angular {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }
+    #numero6-angular {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }
+    #numero7-angular {
+        margin: 10px 0px 0px 10px;
+        font-size: 3em;
+    }
+    #numero8-angular {
         margin: 10px 0px 0px 10px;
         font-size: 3em;
     }
@@ -362,6 +432,14 @@ h4 {
         max-width: 120px !important;
         min-height: 90px  !important;
     }
+    .proporcao-imagem {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
     
 }
 @media screen and (min-width: 661px) and (max-width: 1100px) {

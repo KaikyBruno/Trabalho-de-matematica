@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
+
 <body>
     <div class="container-pai-perguntas">
 
@@ -17,6 +18,55 @@
             <h5>Ops, Não foi dessa vez!</h5>
             <h5>Tente Novamente</h5>
             <input type="submit" value="Tentar Novamente" id="tentar-novamente" onclick="TentarNovamente2Angular()">
+        </div>
+
+       <div id="angular-completo">
+        <h5>Parabéns! Quiz do coeficiente Linear Completo.</h5>
+        <form action="../index.html">
+            <input type="submit" value="Voltar" id="completo-nivel">
+        </form>
+       </div>
+
+        <div id="pergunta8-angular">
+            <i class="material-symbols-outlined" id="numero8-angular">counter_8</i>
+            <div class="flex-imagem">
+                <img src="../Imagens/imagem-8-angular.png" class="proporcao-imagem">
+                <h4>Observando a imagem qual o coeficiente angular do ponto E e do ponto H</h4>
+            </div>
+            <div class="container-resp">
+                <div class="design-resp" id="alternativa-8-angular" onclick="acerto8Angular()"><h2>2</h2></div>
+                <div class="design-resp" id="alternativa-8-angular" onclick="Errar2Angular()"><h2>4</h2></div>
+                <div class="design-resp" id="alternativa-8-angular" onclick="Errar2Angular()"><h2>5</h2></div>
+                <div class="design-resp" id="alternativa-8-angular" onclick="Errar2Angular()"><h2>6</h2></div>
+            </div>
+        </div>
+
+        <div id="pergunta7-angular">
+            <i class="material-symbols-outlined" id="numero7-angular">counter_7</i>
+            <div class="flex-imagem">
+                <img src="../Imagens/imagem-6-angular.png" class="proporcao-imagem">
+                <h4>Observando o primeiro e o terceiro quadrante, qual o valor do coeficiente angular</h4>
+            </div>
+            <div class="container-resp">
+                <div class="design-resp" id="alternativa-7-angular" onclick="acerto7Angular()"><h2>5/3</h2></div>
+                <div class="design-resp" id="alternativa-7-angular" onclick="Errar2Angular()"><h2>6/3</h2></div>
+                <div class="design-resp" id="alternativa-7-angular" onclick="Errar2Angular()"><h2>10/3</h2></div>
+                <div class="design-resp" id="alternativa-7-angular" onclick="Errar2Angular()"><h2>11/3</h2></div>
+            </div>
+        </div>
+
+        <div id="pergunta6-angular">
+            <i class="material-symbols-outlined" id="numero6-angular">counter_6</i>
+            <div class="flex-imagem">
+                <img src="../Imagens/imagem-6-angular.png" class="proporcao-imagem">
+                <h4>Observando o segundo quadrante e o terceiro quadrante qual o valor do coeficiente angular</h4>
+            </div>
+            <div class="container-resp">
+                <div class="design-resp" id="alternativa-6-angular" onclick="Errar2Angular()"><h2>1</h2></div>
+                <div class="design-resp" id="alternativa-6-angular" onclick="Errar2Angular()"><h2>2</h2></div>
+                <div class="design-resp" id="alternativa-6-angular" onclick="acerto6Angular()"><h2>-1,5</h2></div>
+                <div class="design-resp" id="alternativa-6-angular" onclick="Errar2Angular()"><h2>-2,2</h2></div>
+            </div>
         </div>
 
         <div id="pergunta5-angular">
@@ -32,6 +82,7 @@
                 <div class="design-resp" id="alternativa-5-angular" onclick="Errar2Angular()"><h2>-3/2</h2></div>
             </div>
         </div>
+        
     </div>
 </body>
 </html>
